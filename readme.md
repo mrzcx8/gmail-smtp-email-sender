@@ -23,7 +23,7 @@ A simple and secure tool built using Python (Flask) and Bootstrap to send bulk e
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/email-sender.git
+git clone https://github.com/mrzcx8/email-sender.git
 cd email-sender
 2. Install dependencies
 bash
