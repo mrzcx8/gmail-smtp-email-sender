@@ -2,6 +2,7 @@
 A simple and secure tool built using Python (Flask) and Bootstrap to send bulk emails via Gmail SMTP, complete with HTML email templates and recipient list support.
 
 🧰 Features
+
 ✅ Send emails via Gmail using App Password
 
 ✅ Upload HTML template to use as email body
@@ -17,24 +18,27 @@ A simple and secure tool built using Python (Flask) and Bootstrap to send bulk e
 ✅ Tutorial modal for easy Gmail setup
 
 🖼️ UI Preview
+![Screenshot (5366)](https://github.com/user-attachments/assets/57aaa463-04aa-4768-a1e4-fbd735524ff7)
+
 
 🚀 Getting Started
-1. Clone this repository
+Clone this repository
 bash
 Copy
 Edit
 git clone https://github.com/mrzcx8/email-sender.git
 cd email-sender
-2. Install dependencies
+Install dependencies
 bash
 Copy
 Edit
 pip install flask
-3. Run the app
+Run the app
 bash
 Copy
 Edit
 python app.py
+
 📂 HTML Form Uploads
 HTML Email Template
 Upload a .html file that contains your email content.
@@ -45,7 +49,7 @@ Upload a .txt file with one email address per line.
 🔒 Security Notes
 Password is stored in the browser’s localStorage in encrypted format using CryptoJS.
 
-Encryption key is stored in the frontend (not suitable for public/production).
+Encryption key is stored in the frontend (not suitable for public/production use).
 
 This tool is meant for personal/local use only.
 
@@ -58,24 +62,22 @@ Enable 2-Step Verification
 
 Create an App Password under "App passwords"
 
-Select Mail and Windows Computer, then generate
+Select Mail and Windows Computer (or your device), then generate
 
 Use the generated 16-character password in this app
 
-📁 File Structure
-cpp
-Copy
-Edit
+## 📁 File Structure
 email-sender/
 ├── templates/
-│   └── index.html
+│ └── index.html
 ├── uploads/
-│   └── (everything you upload goes here)
+│ └── (all uploaded files are stored here)
 ├── app.py
 └── README.md
-❤️ Credits
-Made with ❤️ by Mr. Syah
-©️ {{ current_year }} · All rights reserved
+
+## ❤️ Credits
+Made with ❤️ by Mr. Syah ©️ 2025 · All rights reserved
 
 📃 License
 This project is licensed under the MIT License – see the LICENSE file for details.
+
