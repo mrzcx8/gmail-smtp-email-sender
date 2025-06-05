@@ -26,7 +26,7 @@ Clone this repository
 bash
 Copy
 Edit
-git clone https://github.com/mrzcx8/email-sender.git
+git clone https://github.com/mrzcx8/gmail-smtp-email-sender.git
 cd email-sender
 Install dependencies
 bash
